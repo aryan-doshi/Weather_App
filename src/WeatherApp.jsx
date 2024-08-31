@@ -17,8 +17,8 @@ export default function WeatherApp() {
     setWeatherInfo(newInfo);
   };
   return (
-    <div style={{ textAlign: "center", backgroundColor: "#EEF0F2" }}>
-      <br />
+    <div style={{ textAlign: "center", backgroundColor: "#EEF0F2", height: "100vh" }}>
+     <br />
       <h2>Weather App</h2>
       <SearchBox updateInfo={updateinfo} />
       <InfoBox info={weatherInfo} />
